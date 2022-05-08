@@ -1,4 +1,4 @@
-# Course Material and FAQ for my Complete JavaScript Course
+# The Complete JavaScript Course 2022: From Zero to Expert!
 
 ## What you will learn
 
