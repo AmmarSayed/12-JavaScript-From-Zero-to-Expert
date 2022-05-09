@@ -213,3 +213,150 @@ console.log(century);
 // 19. Coding Challenge #2 in a spearated file
 ////////////////////////////////////
 ////////////////////////////////////
+
+////////////////////////////////////
+////////////////////////////////////
+// 20. Type Conversion and Coercion
+////////////////////////////////////
+////////////////////////////////////
+
+/*
+
+// type conversion
+const inputYear = '1991';
+console.log(Number(inputYear), inputYear);
+console.log(Number(inputYear) + 18);
+console.log(Number('ammar') + 18);
+//NaN is an invalid number
+console.log(typeof NaN);
+console.log(String(23), 23);
+
+// type coercion
+// it happens automatically whenver javascript is dealing with different type of values
+// below the number is converted to a string automatically, because of the (+) operator
+console.log(`I'm ` + 23 + ' years old');
+
+// the (-) operatore converts strings to number automatically
+console.log('23' - 10 - 3);
+
+// in the below example (+) operator converts 10 to string, and concatinate it with 23, so it becomes 2310
+console.log('23' + 10 - 3);
+
+// (/) operator converts the string '23' to a number
+console.log('23' / 2);
+// (*) operator converts the string '23' to a number
+console.log('23' * 2);
+
+//gues the output
+let n = '1' + 1; // '11'
+n = n - 1; // 10
+
+console.log(n);
+
+*/
+////////////////////////////////////
+////////////////////////////////////
+// 21. Truthy and Falsy Values
+////////////////////////////////////
+////////////////////////////////////
+
+/*
+// falsy valuse are values that will be evaluated to false when we try to convert them to boolean, such as
+// 0, '', undefined, null, NaN
+console.log(Boolean(0)); // converting 0 to boolean => false
+console.log(Boolean(undefined)); // false
+console.log(Boolean('')); // empty string is converted to false
+console.log(Boolean('Ammar')); // normal string converted to true
+console.log(Boolean({})); // an object is true, even if it's empty
+
+// we usually don't use Boolean function for conversion, it happens generally using type coercion in 2 scenarios
+//1- when using logical operators (>,<,||,<=,===,>=)
+//2- In a logical context like an if statement
+
+const money = 0;
+
+if (money) {
+  // money is a number, which is in the same time falsy because it's 0, so the second condition will be exicuted
+  console.log(`Don't spend it all!`);
+} else {
+  console.log(`You should get a job!`);
+}
+
+let height; // height is undefinded which holds no valus, so it's falsy
+height = 0; // height now holds a value of 0, which's also a falsy value
+
+if (height) console.log('yaaay, height is defined');
+else console.log('please define the height first');
+
+*/
+////////////////////////////////////
+////////////////////////////////////
+// 22. Equality Operators: == vs. ===
+////////////////////////////////////
+////////////////////////////////////
+
+/*
+const age = 18;
+// the equality/comparison operator converts the value into boolean value
+if (age === 18) console.log('You just became an adult');
+
+const favourite = Number(prompt("What's your favourite number?"));
+
+console.log(typeof favourite); //string
+
+if (isNaN(favourite)) {
+  console.log('please enter a valid number');
+} else if (favourite === 23) {
+  console.log('Cool! 23 is an amazing number!');
+} else if (favourite === 7) {
+  console.log(`7 is also a cool number`);
+} else {
+  console.log('number is not 23 or 7');
+}
+
+*/
+////////////////////////////////////
+////////////////////////////////////
+// 23. Boolean Logic
+////////////////////////////////////
+////////////////////////////////////
+
+////////////////////////////////////
+////////////////////////////////////
+// 24. Logical Operators
+////////////////////////////////////
+////////////////////////////////////
+
+/*
+
+let hasDriversLicense = true;
+let hasGoodVision = true;
+console.log(hasDriversLicense && hasGoodVision); // true
+
+hasDriversLicense = true;
+hasGoodVision = false;
+console.log(hasDriversLicense && hasGoodVision); // false
+
+hasDriversLicense = true;
+hasGoodVision = false;
+console.log(hasDriversLicense || hasGoodVision); // true
+
+console.log(!hasDriversLicense); // false
+
+const shouldDrive = hasDriversLicense && hasGoodVision;
+
+if (shouldDrive) console.log('Sarah is able to drive');
+else console.log('Someone else should drive...');
+
+*/
+////////////////////////////////////
+////////////////////////////////////
+// 25. Coding Challenge #3 , in a separate file
+////////////////////////////////////
+////////////////////////////////////
+
+////////////////////////////////////
+////////////////////////////////////
+// 25. Coding Challenge #3 , in a separate file
+////////////////////////////////////
+////////////////////////////////////
