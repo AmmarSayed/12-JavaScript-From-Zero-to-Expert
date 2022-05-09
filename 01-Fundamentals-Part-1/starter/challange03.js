@@ -40,4 +40,4 @@ else if (avgKoalas > avgDolphins && avgKoalas >= 100)
   console.log(`Koala wins the game!`);
 else if (avgDolphins === avgKoalas && avgDolphins >= 100 && avgKoalas >= 100)
   console.log(`It's a draw!`);
-else console.log('No one wis the game!');
+else console.log('No one wins the game!');
