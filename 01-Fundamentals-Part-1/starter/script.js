@@ -357,6 +357,83 @@ else console.log('Someone else should drive...');
 
 ////////////////////////////////////
 ////////////////////////////////////
-// 25. Coding Challenge #3 , in a separate file
+// 26. The switch Statement
 ////////////////////////////////////
 ////////////////////////////////////
+
+/*
+
+const day = 'thursday';
+
+switch (day) {
+  case 'monday': //day === 'monday' // strict equality
+    console.log('Plan course structure');
+    console.log('Go to coding meetup');
+    break;
+  case 'tuseday':
+    console.log('prepare theory videos');
+    break;
+  case 'wednesday':
+  case 'thursday':
+    console.log('write code samples');
+    break;
+  case 'friday':
+    console.log('record videos');
+  case 'saturday': //  will exicute the code incase saturday || sunday
+  case 'sunday':
+    console.log('enjoy the weekend :)');
+    break;
+  default:
+    console.log('not a valid day');
+}
+
+
+*/
+
+////////////////////////////////////
+////////////////////////////////////
+// 27. Statements and Expressions
+////////////////////////////////////
+////////////////////////////////////
+/*
+
+
+// expression is an piece of code that produce a value
+3 + 4; // this is an expression as it will produce a value 7
+1991; // this is as well an expression
+true && false && !false; // same here it will produce a boolean value
+
+// statement is a bigger piece of code which does not produce a value by it self
+// ex: a declaration is like a complete sentence, while expressions are the words that makeup the sentence
+// statements are more likely the instructions/actions which we need the program to perform
+
+// ex an (if "statement")
+// the below code dosn't really produce a value
+if (23 > 10) {
+  // this is a statement as well
+  const str = '23 is bigger';
+  //however '23 is bigger' is an expression
+}
+// template literals accepts only expressions
+// ex:
+console.log(`I'm ${2023 - 1988} years old `);
+console.log(`I'm ${new Date().getFullYear() - 1988} years old `);
+
+// however we cannot make the following, because if is a STATEMENT
+// console.log(`I'm ${if(23 > 10{return true})} years old `);
+
+
+*/
+////////////////////////////////////
+////////////////////////////////////
+// 28. The Conditional (Ternary) Operator
+////////////////////////////////////
+////////////////////////////////////
+const age = 17;
+
+//tenerary operator (it's an expression because it produces a value)
+age >= 18 ? console.log('I want to marry 🤗') : console.log('I will wait 😢');
+
+const wish = age >= 18 ? 'to marry 🤗' : 'to have water 😢';
+
+console.log(`I wish ${wish}!`);
