@@ -150,3 +150,66 @@ const averageAge = (ageAmmar + ageSarah) / 2;
 console.log(ageAmmar, ageSarah);
 console.log('Average age = ', averageAge);
 */
+////////////////////////////////////
+////////////////////////////////////
+// LECTURE: 16. Coding Challenge #1 in a separated file
+////////////////////////////////////
+////////////////////////////////////
+
+////////////////////////////////////
+////////////////////////////////////
+// LECTURE: 17. Strings and Template Literals
+////////////////////////////////////
+////////////////////////////////////
+
+/*
+const firstName = 'Ammar';
+const job = 'teacher';
+const birthYear = 1988;
+const year = new Date().getFullYear();
+
+const ammar = `I'm ${firstName}, a ${year - birthYear} years old ${job}`;
+
+console.log(ammar);
+console.log(`Hello world`);
+
+console.log(`Starging
+with multible
+lines`);
+*/
+
+////////////////////////////////////
+////////////////////////////////////
+// 18. Taking Decisions: if / else Statements
+////////////////////////////////////
+////////////////////////////////////
+
+/*
+const age = 15;
+const isOldEnough = age >= 18; // ture/false
+
+if (isOldEnough) {
+  console.log(`You are okay to have the licence, you can start driving 🚗`);
+}
+
+if (!isOldEnough) {
+  console.log(`You cannot drive now, wait for another ${18 - age} years.`);
+}
+
+const birthYear = 1991;
+let century;
+
+if (birthYear <= 2000) {
+  century = 20;
+} else {
+  century = 21;
+}
+
+console.log(century);
+*/
+
+////////////////////////////////////
+////////////////////////////////////
+// 19. Coding Challenge #2 in a spearated file
+////////////////////////////////////
+////////////////////////////////////
