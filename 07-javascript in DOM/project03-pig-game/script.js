@@ -85,8 +85,8 @@ btnHold.addEventListener('click', function () {
   // add current score to the active player score
   scores[activePlayer] += currentScore;
 
-  current0El.textContent = scores[0];
-  current1El.textContent = scores[1];
+  score0El.textContent = scores[0];
+  score1El.textContent = scores[1];
 
   // check if player score >= 100
   if (scores[activePlayer] >= 100) {
