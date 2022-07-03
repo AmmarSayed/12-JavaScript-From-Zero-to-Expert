@@ -101,6 +101,10 @@ const { addToCart } = require('./shoppingCart.js');
 //////////////////////////////////////////
 
 // import cloneDeep from './node_modules/lodash-es/cloneDeep.js';
+
+/*
+
+
 import cloneDeep from 'lodash-es/cloneDeep';
 import { cart, addToCart } from './shoppingCart';
 
@@ -137,6 +141,9 @@ addToCart('apple', 1);
 console.log('ammar' ?? null);
 
 console.log(cart.find(el => el.quantity >= 2));
+
+
+*/
 
 //////////////////////////////
 // 280. Review: Writing Clean and Modern JavaScript
