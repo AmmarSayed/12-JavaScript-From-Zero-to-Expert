@@ -31,4 +31,4 @@
 
 ## [Udemy course](https://www.udemy.com/course/the-complete-javascript-course/)
 
-## [Course Certificate](https://www.non)
+## [Course Certificate](https://www.udemy.com/certificate/UC-0eaaa934-9d84-4ecb-bc12-52c8346aab91/)
