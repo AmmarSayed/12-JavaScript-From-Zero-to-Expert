@@ -8,10 +8,14 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
+.cache
+.parcel-cache
+.parcel-cache/*
+
 dist
 dist-ssr
 *.local
-.parcel-cache
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
