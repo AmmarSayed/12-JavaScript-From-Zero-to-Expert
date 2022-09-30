@@ -39,6 +39,6 @@ You can switch branches via the branch dropdown above the directory explorer.
 - [Bankist](https://) (Arrays, Numbers, Dates, Timers. Fake "log in" with user `js` and PIN `1111`)
 - [Bankist Site](https://) (Advanced DOM and Events)
 - [Mapty](https://) (OOP, Geolocation, Project planning)
-- [forkify](https://) (Final advanced project)
+- [forkify](https://ammar-forkify-app.netlify.app) (Final advanced project)
 
 ---
