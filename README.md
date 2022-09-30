@@ -1,5 +1,19 @@
 # The Complete JavaScript Course 2022: From Zero to Expert!
 
+## How to use
+
+The code snapshots are organized in multiple **branches** where every branch **represents a course section**.
+
+You can switch branches via the branch dropdown above the directory explorer.
+
+![Click on the branch dropdown and then select the appropriate branch for the course section you're looking for](./selecting-a-branch.jpg)
+
+
+### [Udemy course](https://www.udemy.com/course/the-complete-javascript-course/)
+
+### [Course Certificate](https://www.udemy.com/certificate/UC-0eaaa934-9d84-4ecb-bc12-52c8346aab91/)
+![](./javascript.jpg)
+
 ## What you will learn
 
 - Become an advanced, confident, and modern JavaScript developer from scratch
@@ -28,7 +42,3 @@
 - [forkify](https://) (Final advanced project)
 
 ---
-
-## [Udemy course](https://www.udemy.com/course/the-complete-javascript-course/)
-
-## [Course Certificate](https://www.udemy.com/certificate/UC-0eaaa934-9d84-4ecb-bc12-52c8346aab91/)
