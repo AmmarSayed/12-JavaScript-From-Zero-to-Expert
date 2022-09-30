@@ -35,10 +35,10 @@ You can switch branches via the branch dropdown above the directory explorer.
 
 ## Live hosted Projects
 
-- [Pig Game](https://) (DOM Manipulation)
-- [Bankist](https://) (Arrays, Numbers, Dates, Timers. Fake "log in" with user `js` and PIN `1111`)
-- [Bankist Site](https://) (Advanced DOM and Events)
-- [Mapty](https://) (OOP, Geolocation, Project planning)
+- [Pig Game](https://ammar-pig-game.netlify.app/) (DOM Manipulation)
+- [Bankist](https://ammar-bankist-app.netlify.app/) (Arrays, Numbers, Dates, Timers. Fake "log in" with user `js` and PIN `1111`)
+- [Bankist Site]([https://](https://ammar-bankist-site.netlify.app/)) (Advanced DOM and Events)
+- [Mapty](https://ammar-mapty-site.netlify.app/) (OOP, Geolocation, Project planning)
 - [forkify](https://ammar-forkify-app.netlify.app) (Final advanced project)
 
 ---
